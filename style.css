@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+nav {
+    background-color: #ff7755;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.hamburguer {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    width: 30px;
+    height: 2px;
+    justify-content: space-between;
+}
