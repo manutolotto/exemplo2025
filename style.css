@@ -5,7 +5,7 @@
 }
 
 nav {
-    background-color: #ff7755;
+    background-color: rgb(139, 0, 0);;
     padding: 10px 20px;
     position: relative;
 }
@@ -36,5 +36,5 @@ ul.menu {
 }
 
 ul.menu li a {
-    color: rgb(139, 0, 0);
+    color: rgb(255, 214, 255);
 }
