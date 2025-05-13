@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 nav {
     background-color: rgb(201, 63, 63);;
     padding: 10px 20px;
@@ -19,7 +23,7 @@ nav {
     flex-direction: column;
     cursor: pointer;
     width: 30px;
-    height: 2px;
+    height: 25px;
     justify-content: space-between;
 }
 
@@ -37,4 +41,33 @@ ul.menu {
 
 ul.menu li a {
     color: rgb(255, 214, 255);
+    text-decoration: none;
 }
+
+h1{
+    align-items: center;
+    text-align: center;
+    color: rgb(159, 208, 250);
+}
+
+/*Responsivo*/
+@media (max-width:768px) {
+    .hamburguer
+    display: flex;
+}
+
+ul.menu{
+    display: none;
+    flex-direction: column;
+    background: #20608a;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+}
+
+.menu-toggle:checked
++.hamburguer+ul.menu {
+    display: flex;
+}
+
